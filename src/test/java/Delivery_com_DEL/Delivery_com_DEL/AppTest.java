@@ -88,6 +88,7 @@ public class AppTest extends login_admin {
 			Pnumber(Ordernumber[i]);
 			// Pnumber("100003357");
 			orderC();
+			open("https://front-qa.wemakeprice.com/mypage/orders?page=1");
 			screenshot("img");
 		}
 
