@@ -88,6 +88,7 @@ public class AppTest extends login_admin {
 			Pnumber(Ordernumber[i]);
 			// Pnumber("100003357");
 			orderC();
+			screenshot("list");
 		}
 
 	}
