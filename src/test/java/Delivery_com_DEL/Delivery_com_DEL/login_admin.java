@@ -18,8 +18,8 @@ public class login_admin {
 
 	public static void login() throws Exception {
 		open("https://groupware-login.wemakeprice.com/VDI/Login?ReturnURL=https://wadmin-qa.wemakeprice.com/login/action");
-		$(By.id("UserID")).setValue("2015080004");
-		$(By.id("Password")).setValue("Dl71019324@");
+		$(By.id("UserID")).setValue("TMD0000004");
+		$(By.id("Password")).setValue("wemakeprice123!0124");
 		$(By.xpath("//button[contains(.,'로그인')]")).click();
 	}
 
